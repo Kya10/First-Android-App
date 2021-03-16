@@ -7,15 +7,34 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Study Lab!"
-        android:textSize="100dp"
-        android:background="@color/purple_500"
-        
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="316dp"
+        android:layout_height="167dp"
+        android:layout_marginTop="164dp"
+        android:background="@color/cardview_shadow_end_color"
+        android:text="Study Lab"
+        android:textColor="@color/black"
+        android:textSize="70dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf=""
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText"
+
+        />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="617dp"
+
+        tools:ignore="HardcodedText" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
