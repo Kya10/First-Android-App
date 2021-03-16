@@ -9,13 +9,27 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@color/cardview_shadow_end_color"
         android:text="Study Lab!"
-        android:textSize="100dp"
-        android:background="@color/purple_500"
-        
+        android:textColor="@color/black"
+        android:textSize="70dp"
+        android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="Dark Mode"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="53dp" />
+
+    
 
 </androidx.constraintlayout.widget.ConstraintLayout>
