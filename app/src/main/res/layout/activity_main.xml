@@ -13,7 +13,7 @@
         android:background="@color/cardview_shadow_end_color"
         android:text="Study Lab"
         android:textColor="@color/black"
-        android:textSize="70dp"
+        android:textSize="70sp"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf=""
         app:layout_constraintLeft_toLeftOf="parent"
